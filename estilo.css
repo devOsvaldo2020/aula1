@@ -1,0 +1,205 @@
+
+/*meu primeiro CSS para esta curso*/
+/*TAGS*/
+
+p{
+	color: #000066;
+	font-size: 20px;
+	font-family: arial, "Times new roman";	
+	text-shadow: 1px 1px 1px #ffffff;
+}
+img{
+	font-size: 15px;
+	font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	box-sizing: inherit;
+	border: 0;
+	vertical-align: middle;
+	display: block;
+	margin: 0;
+	color: transparent;
+	max-width: 100%;
+	height: auto;
+	outline-color: transparent !important;
+	outline-style: none !important;
+}
+
+
+body{
+	background-color:#000000;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, arial;
+}
+
+header{
+	background-color: #35b8b0;
+	height: 125px;
+	padding: 10px;
+}
+footer{
+	clear: both;
+	background-color: #35b8b0;
+	height: 40px;
+	text-align: center;
+	padding: 15px 0 0 0;
+	text-shadow: 1px 1px 1px #ffffff;
+	font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	box-sizing: inherit;				
+	text-decoration: none;
+	margin-right: auto;
+	width: 100%;
+	font-size: 11px;
+	line-height: 16px;
+	display: inline-block;
+	padding-right: 24px;
+	color: #616161;
+	white-space: nowrap;
+				
+
+}
+h1{
+	color: #FFFFFF;
+	text-align: center;
+	margin: 20px;
+	text-shadow: 1.5px 1.5px 1.5px #222222;
+}
+h2{	
+	color: #fff;
+	font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
+	box-sizing: inherit;
+	margin-top: 0;
+	margin-bottom: 0;
+	letter-spacing: -.01em;
+	font-weight: 100;
+	font-size: 34px;
+	line-height: 40px;
+	padding: 20px 0 2px 0;
+	outline-color: transparent !important;
+	outline-style: none !important;
+	padding-top: 0px;
+}
+h3{
+	color: #cccccc;
+	font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: center;
+	box-sizing: inherit;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 200;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 10px 0 1px;
+	outline-color: transparent !important;
+	outline-style: none !important;
+}
+div a{		
+	font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 1.3;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	font-weight: 700 !important;
+	color: #0067b8;
+	white-space: normal;
+	text-align: center;
+	box-sizing: inherit;
+	max-width: 100%;
+	left: 0;
+	text-overflow: clip;
+	overflow: hidden;
+	transition: all 200ms ease-in-out;
+	display: inline;
+	position: static;
+
+}
+
+
+/* IDS*/
+
+/*#div_esq{
+	background-color:red;
+	min-height: 200px;
+	width: 60%;
+	float: left;
+}
+#div_dir{
+	background-color: yellow;
+	min-height: 200px;
+	width: 40%;
+	float: right;
+}*/
+#div_principal{
+	clear: both;
+	background-image: url('img/city1.jpg');
+	background-size: 100%;
+	min-height: 400px;
+	padding: 50px 0 0 0 ;
+	
+
+}
+
+#logo{
+	float: left;
+}
+#menu{
+	float: right;
+	padding: 50px 0 0 0;
+
+}
+#menu a{
+	text-decoration: none;
+	text-shadow: 1px 1px  #cccccc;
+	font-size: 24px;
+	padding: 0 10px;	
+}
+
+#menu a:hover{
+	background-color: #cccccc;
+	color: #3399ff;
+	padding: 20px 10px;
+}
+#windows{
+	padding: 100px;
+}
+
+
+/* CLASSES*/
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.efeito{
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 30px 0 10px 0;	
+}
+
+nav{
+	padding: 20px;
+	margin: 0 auto;	
+	background-color: #333;	
+	vertical-align: middle;
+	color: transparent;
+	clear: both;
+	min-height: 500px;
+
+}
+nav h2{
+	padding: 0 0 30px 0;
+}
+.fotosEsq{	
+	margin: 1% center;	
+	width: 48%;
+	float: left;
+	
+
+}
+.fotosDir{	
+	margin: 1% center;		
+	width: 48%;
+	float: right;
+}
